@@ -25,3 +25,10 @@
 | Grammar | Past Simple | Past Simple — Verb Workshop (Workshop) | Workshop | `grammar/past-simple-lab/index.html` | https://olyapolyakova77.github.io/grammar/past-simple-lab/ |
 | Grammar | Present Simple | Present Simple — Daily Routines (Quiz Cards) | Quiz Cards | `grammar/present-simple-routines/index.html` | https://olyapolyakova77.github.io/grammar/present-simple-routines/ |
 | Grammar | There is / There are | There is / There are — Delivery Yard (Furniture Boxes) | Furniture Boxes | `grammar/there-is-are-delivery/index.html` | https://olyapolyakova77.github.io/grammar/there-is-are-delivery/ |
+| Reading | Long vs Short A | Long vs Short A — Portal Sorter (Portals) | Portals | `reading/long-short-a-portals/index.html` | https://olyapolyakova77.github.io/reading/long-short-a-portals/ |
+| Reading | Long vs Short A | Long vs Short A — Basket Sorter (Baskets) | Baskets | `reading/long-short-a-baskets/index.html` | https://olyapolyakova77.github.io/reading/long-short-a-baskets/ |
+| Reading | Long vs Short I | Long vs Short I — Basket Sorter (Baskets) | Baskets | `reading/long-short-i-baskets/index.html` | https://olyapolyakova77.github.io/reading/long-short-i-baskets/ |
+| Reading | Long vs Short I | Long vs Short I — Garden Sorter (Houses) | Houses | `reading/long-short-i-houses/index.html` | https://olyapolyakova77.github.io/reading/long-short-i-houses/ |
+| Reading | Long vs Short O | Long vs Short O — Pirate Sorter (Chests) | Chests | `reading/long-short-o-chests/index.html` | https://olyapolyakova77.github.io/reading/long-short-o-chests/ |
+| Reading | Long vs Short U | Long vs Short U — Cable Car Sorter (Cable Cars) | Cable Cars | `reading/long-short-u-cabins/index.html` | https://olyapolyakova77.github.io/reading/long-short-u-cabins/ |
+| Reading | SH vs CH | SH vs CH — Underwater Sorter (Turtle) | Turtle | `reading/sh-ch-underwater/index.html` | https://olyapolyakova77.github.io/reading/sh-ch-underwater/ |
