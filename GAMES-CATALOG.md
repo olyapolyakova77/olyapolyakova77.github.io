@@ -32,3 +32,5 @@
 | Reading | Long vs Short O | Long vs Short O — Pirate Sorter (Chests) | Chests | `reading/long-short-o-chests/index.html` | https://olyapolyakova77.github.io/reading/long-short-o-chests/ |
 | Reading | Long vs Short U | Long vs Short U — Cable Car Sorter (Cable Cars) | Cable Cars | `reading/long-short-u-cabins/index.html` | https://olyapolyakova77.github.io/reading/long-short-u-cabins/ |
 | Reading | SH vs CH | SH vs CH — Underwater Sorter (Turtle) | Turtle | `reading/sh-ch-underwater/index.html` | https://olyapolyakova77.github.io/reading/sh-ch-underwater/ |
+| Reading | Long vs Short E | Long vs Short E — Mailbox Sorter (Postboxes) | Postboxes | `reading/long-short-e-postboxes/index.html` | https://olyapolyakova77.github.io/reading/long-short-e-postboxes/ |
+| Reading | Long vs Short U | Long vs Short U — Suitcase Sorter (Suitcases) | Suitcases | `reading/long-short-u-suitcases/index.html` | https://olyapolyakova77.github.io/reading/long-short-u-suitcases/ |
