@@ -18,10 +18,9 @@
 .butterfly:nth-child(odd){animation:driftA 12.5s ease-in-out infinite}.butterfly:nth-child(even){animation:driftB 13.5s ease-in-out infinite}
 #bookWrap{position:absolute;left:50%;bottom:-7%;width:min(600px,40vw);transform:translateX(-50%);z-index:20;pointer-events:none}
 #book{display:block;width:100%;height:auto;filter:drop-shadow(0 15px 14px rgba(53,33,8,.30))}
-.slotButterfly{position:absolute;width:11.7%;aspect-ratio:1;object-fit:contain;opacity:0;transform:scale(.3);transition:opacity .45s ease,transform .55s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 3px 3px rgba(60,35,10,.18))}
-.slotButterfly.filled{opacity:1;transform:scale(1)}
-/* centers of eight butterfly-shaped book slots */
-.s0{left:11.7%;top:22.5%}.s1{left:34.1%;top:22.5%}.s2{left:57.4%;top:22.5%}.s3{left:79.8%;top:22.5%}.s4{left:11.7%;top:53.3%}.s5{left:34.1%;top:53.3%}.s6{left:57.4%;top:53.3%}.s7{left:79.8%;top:53.3%}
+#slots{position:absolute;inset:0}
+.slotButterfly{position:absolute;width:11.7%;aspect-ratio:1;object-fit:contain;opacity:0;transform:translate(-50%,-50%) scale(.3);transition:opacity .45s ease,transform .55s cubic-bezier(.2,1.5,.4,1);filter:drop-shadow(0 3px 3px rgba(60,35,10,.18))}
+.slotButterfly.filled{opacity:1;transform:translate(-50%,-50%) scale(1)}
 #instruction{display:none;position:absolute;left:3.5%;bottom:3.2%;z-index:45;background:#fff5da;border:4px solid #d5a347;border-radius:22px;padding:12px 20px;color:#6c2d85;font-size:clamp(19px,1.8vw,28px);font-weight:900;box-shadow:0 5px 0 #a96b22;transition:opacity .4s}
 #focusLayer{position:absolute;inset:0;display:none;z-index:55;align-items:flex-start;justify-content:center;background:rgba(255,255,255,.17)}
 #focusCard{position:relative;margin-top:8vh;width:min(560px,74vw);height:min(520px,62vh);display:flex;align-items:center;justify-content:flex-start;flex-direction:column;pointer-events:none}
@@ -51,7 +50,11 @@ const imgs=['data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABOYAAATmCAYAAACF/K4qA
 const flight=document.getElementById('flightZone'),slots=document.getElementById('slots'),focus=document.getElementById('focusLayer'),focusImg=document.getElementById('focusButterfly'),focusWord=document.getElementById('focusWord');
 let page=0,caughtCount=0,nextWordIdx=0,busy=false,started=false,timer=null; const positionsDesktop=[[20,0],[58,0],[-5,49],[77,48]],positionsMobile=[[2,2],[52,45]];
 function clearTimer(){if(timer){clearTimeout(timer);timer=null}}
-function addSlots(){slots.innerHTML='';for(let i=0;i<8;i++){const im=document.createElement('img');im.className='slotButterfly s'+i;im.alt='';slots.appendChild(im)}}addSlots();
+// Interior centers measured in the unchanged 1448 x 1086 book artwork.
+// The illustrated pages have perspective: their cavities are not a uniform grid.
+// Both the growth animation and the settled image use this same centered anchor.
+const bookSlotCenters=[[296.5,314.5],[566,297],[879.5,298.5],[1154.5,311.5],[282,602.5],[564,584],[881,594.5],[1162.5,600]];
+function addSlots(){slots.innerHTML='';bookSlotCenters.forEach(([x,y],i)=>{const im=document.createElement('img');im.className='slotButterfly s'+i;im.alt='';im.style.left=(x/1448*100)+'%';im.style.top=(y/1086*100)+'%';slots.appendChild(im)})}addSlots();
 function currentLayout(){const mobile=matchMedia('(max-width:780px)').matches;return {count:mobile?2:4,pos:mobile?positionsMobile:positionsDesktop}}
 function spawnAt(posIndex,wordIndex){const L=currentLayout();if(posIndex>=L.count||wordIndex>=8)return;const word=pages[page][wordIndex];const b=document.createElement('button');b.type='button';b.className='butterfly';b.style.left=L.pos[posIndex][0]+'%';b.style.top=L.pos[posIndex][1]+'%';b.dataset.pos=posIndex;b.dataset.wordIndex=wordIndex;b.setAttribute('aria-label','Catch '+word);const img=imgs[(wordIndex+page)%imgs.length];b.innerHTML='<img class="creature" alt="" src="'+img+'"><div class="medWrap" style="background-image:url('+med+')"><span class="word">'+word+'</span></div>';b.addEventListener('click',()=>catchButterfly(b,word,img));flight.appendChild(b)}
 function startPage(){flight.innerHTML='';caughtCount=0;addSlots();const L=currentLayout();nextWordIdx=L.count;for(let i=0;i<L.count;i++)spawnAt(i,i)}
