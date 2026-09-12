@@ -20,11 +20,11 @@ body{display:grid;place-items:center}
 
 #hud{position:absolute;inset:0;z-index:30;pointer-events:none}
 #badge{position:absolute;left:1.3%;top:1.4%;width:8.5%;min-width:48px;filter:drop-shadow(0 5px 8px rgba(0,0,0,.2))}
-#progressWrap{position:absolute;right:1.6%;top:1.9%;width:33%;height:10%;min-width:220px;pointer-events:none}
+#progressWrap{position:absolute;right:1.6%;top:1.9%;width:33%;aspect-ratio:3/1;min-width:220px;container-type:inline-size;pointer-events:none}
 #progressFrame{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 5px 8px rgba(0,0,0,.18))}
-#progressFillClip{position:absolute;left:13.1%;top:37%;width:61%;height:25%;border-radius:999px;overflow:hidden;background:linear-gradient(#c9b08d,#a98762);box-shadow:inset 0 2px 5px rgba(82,51,27,.38)}
+#progressFillClip{position:absolute;left:15.6%;top:44.3%;width:71%;height:20.5%;border-radius:999px;overflow:hidden;background:linear-gradient(#c9b08d,#a98762);box-shadow:inset 0 2px 5px rgba(82,51,27,.38)}
 #progressFill{position:absolute;inset:0;width:0;background:linear-gradient(90deg,#7bce36,#b9ed4a 70%,#dfff83);border-radius:inherit;box-shadow:inset 0 2px 4px rgba(255,255,255,.6),0 0 9px rgba(203,255,104,.5);transition:width .35s ease}
-#progressText{position:absolute;right:8%;top:34%;font-weight:900;color:#3c210b;font-size:clamp(12px,1.8vw,29px);text-shadow:0 1px rgba(255,255,255,.55)}
+#progressText{position:absolute;left:15.6%;top:44.3%;width:71%;height:20.5%;display:flex;align-items:center;justify-content:center;line-height:1;white-space:nowrap;font-weight:900;color:#3c210b;font-size:min(4cqw,24px);text-shadow:0 1px rgba(255,255,255,.55)}
 
 #seedLayer{position:absolute;inset:0;z-index:20;pointer-events:none}
 .seed{position:absolute;width:13%;aspect-ratio:1086/1448;pointer-events:auto;cursor:pointer;will-change:transform,left,top;transform:translate(-50%,-50%);transition:left .78s cubic-bezier(.2,.75,.2,1),top .78s cubic-bezier(.2,.75,.2,1),width .72s cubic-bezier(.2,.85,.2,1),filter .25s;filter:drop-shadow(0 9px 12px rgba(63,42,19,.26))}

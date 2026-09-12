@@ -87,8 +87,9 @@
     content:""; position:absolute; inset:8% -10% 8% -12%; z-index:0;
     background:radial-gradient(ellipse at 42% 42%, rgba(67,214,255,.34) 0 18%, rgba(255,208,233,.38) 32%, rgba(102,150,255,.22) 48%, rgba(29,68,138,0) 74%);
     filter:blur(22px);
-    opacity:.95;
+    opacity:0;
   }
+  #palaceWrap.complete::before { opacity:.95; }
   #palace {
     position:relative; z-index:1;
     width:100%; height:100%; object-fit:contain;
@@ -407,20 +408,28 @@
   }
 
   function resetPalace() {
-    caught=0; counter.textContent='0/20';
+    caught=0; counter.textContent='0/'+WORDS.length;
+    palaceWrap.classList.remove('complete');
+    palaceWrap.querySelectorAll('.palace-pulse').forEach(x=>x.remove());
+    palace.style.transition='none';
     palace.style.filter='brightness(.50) saturate(.76) drop-shadow(0 8px 18px rgba(29,21,89,.36))';
     palace.style.transform='scale(.98)';
+    void palace.offsetWidth;
+    palace.style.transition='';
     [...lights.children].forEach(x=>x.classList.remove('on'));
   }
 
   function updatePalace() {
-    counter.textContent=caught+'/20';
-    [...lights.children].forEach((x,i)=>x.classList.toggle('on',i<caught));
-    const p=caught/WORDS.length;
-    const br=(.50+p*.68).toFixed(2), sat=(.76+p*.48).toFixed(2);
-    palace.style.filter=`brightness(${br}) saturate(${sat}) drop-shadow(0 0 ${8+26*p}px rgba(255,219,112,${.18+.56*p}))`;
-    palace.style.transform=`scale(${.98+p*.035})`;
+    counter.textContent=caught+'/'+WORDS.length;
+    const complete=caught===WORDS.length;
+    const wasComplete=palaceWrap.classList.contains('complete');
+    palaceWrap.classList.toggle('complete',complete);
+    [...lights.children].forEach(x=>x.classList.toggle('on',complete));
+    if(!complete || wasComplete) return;
+    palace.style.filter='brightness(1.18) saturate(1.24) drop-shadow(0 0 34px rgba(255,219,112,.74))';
+    palace.style.transform='scale(1.015)';
     const pulse=document.createElement('span');
+    pulse.className='palace-pulse';
     pulse.style.cssText='position:absolute;left:50%;top:60%;width:8%;aspect-ratio:1;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,#fff 0 10%,#ffe984 25%,transparent 68%);filter:drop-shadow(0 0 13px #ffd66f);animation:popGlow .65s ease-out forwards;z-index:9;pointer-events:none;';
     palaceWrap.appendChild(pulse); setTimeout(()=>pulse.remove(),700);
   }
