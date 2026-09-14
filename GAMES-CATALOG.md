@@ -22,7 +22,7 @@
 | Reading | PH vs F | PH vs F — Word Sorter (Owl) | Owl | `reading/ph-f-sort/index.html` | https://olyapolyakova77.github.io/reading/ph-f-sort/ |
 | Reading | SH vs CH | SH vs CH — Magic Sorter (Chick) | Chick | `reading/sh-ch-magic/index.html` | https://olyapolyakova77.github.io/reading/sh-ch-magic/ |
 | Reading | TH | TH — Sound Sort (Dragon) | Dragon | `reading/th-sound-sort/index.html` | https://olyapolyakova77.github.io/reading/th-sound-sort/ |
-| Grammar | Past Simple | Past Simple — Verb Workshop (Workshop) | Workshop | `grammar/past-simple-lab/index.html` | https://olyapolyakova77.github.io/grammar/past-simple-lab/ |
+| Grammar | To be / Plurals / A-An / Have got / Can | Find the Missing Mascot — Grammar Quest | Mascot Quest | `grammar/find-the-missing-mascot/index.html` | https://olyapolyakova77.github.io/grammar/find-the-missing-mascot/ |
 | Grammar | Present Simple | Present Simple — Daily Routines (Quiz Cards) | Quiz Cards | `grammar/present-simple-routines/index.html` | https://olyapolyakova77.github.io/grammar/present-simple-routines/ |
 | Grammar | There is / There are | There is / There are — Delivery Yard (Furniture Boxes) | Furniture Boxes | `grammar/there-is-are-delivery/index.html` | https://olyapolyakova77.github.io/grammar/there-is-are-delivery/ |
 | Reading | Long vs Short A | Long vs Short A — Portal Sorter (Portals) | Portals | `reading/long-short-a-portals/index.html` | https://olyapolyakova77.github.io/reading/long-short-a-portals/ |
