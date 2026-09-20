@@ -34,3 +34,18 @@
 | Reading | SH vs CH | SH vs CH — Underwater Sorter (Turtle) | Turtle | `reading/sh-ch-underwater/index.html` | https://olyapolyakova77.github.io/reading/sh-ch-underwater/ |
 | Reading | Long vs Short E | Long vs Short E — Mailbox Sorter (Postboxes) | Postboxes | `reading/long-short-e-postboxes/index.html` | https://olyapolyakova77.github.io/reading/long-short-e-postboxes/ |
 | Reading | Long vs Short U | Long vs Short U — Suitcase Sorter (Suitcases) | Suitcases | `reading/long-short-u-suitcases/index.html` | https://olyapolyakova77.github.io/reading/long-short-u-suitcases/ |
+| Reading | O vs OR | O vs OR — Clockwork Planet Sort (3) | Planets | `reading/o-or-clockwork-planets-3/index.html` | https://olyapolyakova77.github.io/reading/o-or-clockwork-planets-3/ |
+| Reading | CK | CK — Crystal Cart Express (Crystals) | Crystals | `reading/ck-crystal-cart/index.html` | https://olyapolyakova77.github.io/reading/ck-crystal-cart/ |
+| Grammar | Plurals | Plurals — Crystal Plural Forge | Crystals | `grammar/crystal-plural-forge/index.html` | https://olyapolyakova77.github.io/grammar/crystal-plural-forge/ |
+| Reading | CH vs TCH | CH vs TCH — Dragon Egg Hatchery | Dragon Eggs | `reading/ch-tch-dragon-eggs/index.html` | https://olyapolyakova77.github.io/reading/ch-tch-dragon-eggs/ |
+| Vocabulary | Numbers 10–20 | Numbers 10–20 — Dragon Treasure Counting | Dragon Treasure | `vocabulary/numbers-dragon-treasure/index.html` | https://olyapolyakova77.github.io/vocabulary/numbers-dragon-treasure/ |
+| Reading | Short U | Short U — Magic Lily Hop | Lily Pads | `reading/short-u-lily-hop/index.html` | https://olyapolyakova77.github.io/reading/short-u-lily-hop/ |
+| Reading | ER / IR / UR | ER / IR / UR — Magic Thread Atelier | Threads | `reading/er-ir-ur-thread-atelier/index.html` | https://olyapolyakova77.github.io/reading/er-ir-ur-thread-atelier/ |
+| Reading | Short A | Short A — Moon Moth Garden | Moths | `reading/short-a-moon-moths/index.html` | https://olyapolyakova77.github.io/reading/short-a-moon-moths/ |
+| Reading | Short I | Short I — Moon Moth Garden | Moths | `reading/short-i-moon-moths/index.html` | https://olyapolyakova77.github.io/reading/short-i-moon-moths/ |
+| Reading | Short U | Short U — Moon Moth Garden | Moths | `reading/short-u-moon-moths/index.html` | https://olyapolyakova77.github.io/reading/short-u-moon-moths/ |
+| Reading | OU vs OW | OU vs OW — Mountain Water Spell | Mountain Water | `reading/ou-ow-mountain-water/index.html` | https://olyapolyakova77.github.io/reading/ou-ow-mountain-water/ |
+| Reading | AI | AI — Rainbow Raindrop Catch | Raindrops | `reading/ai-rainbow-raindrops/index.html` | https://olyapolyakova77.github.io/reading/ai-rainbow-raindrops/ |
+| Reading | NG | NG — Singing Lantern Festival | Lanterns | `reading/ng-lantern-festival/index.html` | https://olyapolyakova77.github.io/reading/ng-lantern-festival/ |
+| Grammar | Comparatives | Comparatives — Sky Race (Direct Choice) | Sky Race | `grammar/sky-race-direct-choice/index.html` | https://olyapolyakova77.github.io/grammar/sky-race-direct-choice/ |
+| Reading | EE vs EA | EE vs EA — Stained-Glass Spell Workshop | Stained Glass | `reading/ee-ea-stained-glass/index.html` | https://olyapolyakova77.github.io/reading/ee-ea-stained-glass/ |
