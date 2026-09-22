@@ -122,18 +122,18 @@ button{font:inherit}
 </main></div>
 <script>
 const QUESTIONS=[
-{text:'My brother ___ football after school yesterday.',options:['play', 'played', 'plaied'],answer:1},
-{text:'We ___ breakfast at seven yesterday.',options:['eat', 'ate', 'eated'],answer:1},
-{text:'Emma ___ to school at eight yesterday.',options:['go', 'went', 'goed'],answer:1},
-{text:'Dad ___ TV after dinner last night.',options:['watch', 'watched', 'watcht'],answer:1},
-{text:'Lucy ___ orange juice at lunch yesterday.',options:["didn't drank", "didn't drink", "doesn't drink"],answer:1},
-{text:'Ben ___ lunch at school yesterday.',options:["didn't had", "didn't have", "doesn't have"],answer:1},
-{text:'I ___ my room yesterday.',options:["didn't cleaned", "didn't clean", "don't clean"],answer:1},
-{text:'Emma ___ me her pencil yesterday.',options:["didn't gave", "didn't give", "doesn't give"],answer:1},
-{text:'Did you ___ Sam at the library yesterday?',options:['meet', 'met', 'meeted'],answer:0},
-{text:'Did Tom ___ his kite in the park yesterday?',options:['fly', 'flew', 'flied'],answer:0},
-{text:'Did Anna ___ her grandma on Sunday?',options:['visit', 'visited', 'visitted'],answer:0},
-{text:'Did they ___ football after school yesterday?',options:['play', 'played', 'plaied'],answer:0}
+{text:'My brother ___ football after school last Friday.',options:['play', 'played', 'plaied'],answer:1},
+{text:'We ___ breakfast together last Sunday.',options:['eat', 'ate', 'eated'],answer:1},
+{text:'Emma ___ to school by bus two days ago.',options:['go', 'went', 'goed'],answer:1},
+{text:'Dad ___ TV after dinner last Saturday.',options:['watch', 'watched', 'watcht'],answer:1},
+{text:'Lucy ___ orange juice at lunch last Monday.',options:["didn't drank", "didn't drink", "doesn't drink"],answer:1},
+{text:'Ben ___ lunch at school three days ago.',options:["didn't had", "didn't have", "doesn't have"],answer:1},
+{text:'I ___ my room last weekend.',options:["didn't cleaned", "didn't clean", "don't clean"],answer:1},
+{text:'Emma ___ me her pencil last Tuesday.',options:["didn't gave", "didn't give", "doesn't give"],answer:1},
+{text:'Did you ___ Sam at the library last week?',options:['meet', 'met', 'meeted'],answer:0},
+{text:'Did Tom ___ his kite in the park last weekend?',options:['fly', 'flew', 'flied'],answer:0},
+{text:'Did Anna ___ her grandma a week ago?',options:['visit', 'visited', 'visitted'],answer:0},
+{text:'Did they ___ football after school last Friday?',options:['play', 'played', 'plaied'],answer:0}
 ];
 const startScreen=document.getElementById('startScreen'), gameScreen=document.getElementById('gameScreen'), finishScreen=document.getElementById('finishScreen');
 const startBtn=document.getElementById('startBtn'), againBtn=document.getElementById('againBtn'), soundBtn=document.getElementById('soundBtn');
@@ -141,16 +141,29 @@ const questionText=document.getElementById('questionText'), answersEl=document.g
 const correctIcon=document.getElementById('correctIcon'), wrongIcon=document.getElementById('wrongIcon'), happyBoy=document.getElementById('happyBoy'), wrongBoy=document.getElementById('wrongBoy'), tryAgain=document.getElementById('tryAgain'), gameBg=document.getElementById('gameBg'), zoneFlash=document.getElementById('zoneFlash');
 const finishScore=document.getElementById('finishScore'), confettiLayer=document.getElementById('confettiLayer');
 let current=0, score=0, firstTry=true, locked=false, soundOn=true, audioCtx=null;
+let questionOrders=[];
+
+function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
+function prepareOrders(){
+  const correctPositions=shuffle([0,0,0,0,1,1,1,1,2,2,2,2]);
+  questionOrders=QUESTIONS.map((q,qi)=>{
+    const desired=correctPositions[qi];
+    const others=shuffle([0,1,2].filter(i=>i!==q.answer));
+    const order=[];let k=0;
+    for(let pos=0;pos<3;pos++) order[pos]=pos===desired?q.answer:others[k++];
+    return order;
+  });
+}
 
 function showScreen(el){[startScreen,gameScreen,finishScreen].forEach(s=>s.classList.toggle('active',s===el));}
 function zoneFor(i){return i<4?'home':i<8?'school':'park'}
 function setZone(z,animate=false){if(animate){zoneFlash.classList.add('show');setTimeout(()=>zoneFlash.classList.remove('show'),420)} gameBg.className='bg '+z; gameBg.innerHTML='<div class="water-glint"></div>';}
 function buildRoute(){routeEl.innerHTML='';QUESTIONS.forEach((_,i)=>{const n=document.createElement('i');n.className='node'+(i<current?' done':i===current?' current':'');routeEl.appendChild(n)})}
 function clearFeedback(){correctIcon.classList.remove('show');wrongIcon.classList.remove('show');happyBoy.classList.remove('show');wrongBoy.classList.remove('show');tryAgain.classList.remove('show');document.querySelectorAll('.answer').forEach(b=>b.classList.remove('correct','wrong','locked'));}
-function renderQuestion(fromTransition=false){locked=false;clearFeedback();const q=QUESTIONS[current];progressEl.textContent=(current+1)+' / '+QUESTIONS.length;questionText.textContent=q.text;answersEl.innerHTML='';q.options.forEach((opt,i)=>{const b=document.createElement('button');const multi=opt.includes(' ');b.className='answer'+(multi?' two-line':opt.length>14?' xlong':opt.length>10?' long':'');if(multi){const parts=opt.split(' '),wrap=document.createElement('span');wrap.className='answer-lines';const first=document.createElement('span'),second=document.createElement('span');first.textContent=parts.shift();second.textContent=parts.join(' ');wrap.append(first,second);b.appendChild(wrap)}else{b.textContent=opt}b.addEventListener('click',()=>choose(i,b));answersEl.appendChild(b);});buildRoute();setZone(zoneFor(current),fromTransition);}
+function renderQuestion(fromTransition=false){locked=false;clearFeedback();const q=QUESTIONS[current];if(!questionOrders.length)prepareOrders();progressEl.textContent=(current+1)+' / '+QUESTIONS.length;questionText.textContent=q.text;answersEl.innerHTML='';const order=questionOrders[current]||[0,1,2];order.forEach((originalIndex)=>{const opt=q.options[originalIndex];const b=document.createElement('button');b.dataset.optionIndex=originalIndex;const multi=opt.includes(' ');b.className='answer'+(multi?' two-line':opt.length>14?' xlong':opt.length>10?' long':'');if(multi){const parts=opt.split(' '),wrap=document.createElement('span');wrap.className='answer-lines';const first=document.createElement('span'),second=document.createElement('span');first.textContent=parts.shift();second.textContent=parts.join(' ');wrap.append(first,second);b.appendChild(wrap)}else{b.textContent=opt}b.addEventListener('click',()=>choose(originalIndex,b));answersEl.appendChild(b);});buildRoute();setZone(zoneFor(current),fromTransition);}
 function choose(idx,btn){if(locked)return;const q=QUESTIONS[current];if(idx===q.answer){locked=true;if(firstTry)score++;document.querySelectorAll('.answer').forEach(b=>b.classList.add('locked'));btn.classList.add('correct');const r=btn.getBoundingClientRect(),s=document.getElementById('stage').getBoundingClientRect();correctIcon.style.left=((r.left+r.width/2-s.left)/s.width*100)+'%';correctIcon.style.top=((r.top-s.top)/s.height*100-8)+'%';correctIcon.classList.add('show');happyBoy.classList.add('show');burst((r.left+r.width/2-s.left)/s.width*1600,(r.top+r.height*.22-s.top)/s.height*900);tone('correct');setTimeout(next,950)}else{firstTry=false;btn.classList.remove('wrong');void btn.offsetWidth;btn.classList.add('wrong');const r=btn.getBoundingClientRect(),s=document.getElementById('stage').getBoundingClientRect();wrongIcon.style.left=((r.left+r.width/2-s.left)/s.width*100)+'%';wrongIcon.style.top=((r.top-s.top)/s.height*100-8)+'%';wrongIcon.style.transform='translateX(-50%) scale(.3)';wrongIcon.classList.add('show');requestAnimationFrame(()=>{wrongIcon.style.transform='translateX(-50%) scale(1)'});wrongBoy.classList.add('show');tryAgain.classList.add('show');tone('wrong');setTimeout(()=>{wrongIcon.classList.remove('show');wrongIcon.style.transform='translateX(-50%) scale(.3)';wrongBoy.classList.remove('show');tryAgain.classList.remove('show');btn.classList.remove('wrong')},900)}}
 function next(){const oldZone=zoneFor(current);current++;firstTry=true;if(current>=QUESTIONS.length){finish()}else{renderQuestion(zoneFor(current)!==oldZone)}}
-function startGame(){current=0;score=0;firstTry=true;showScreen(gameScreen);renderQuestion(false);tone('start')}
+function startGame(){current=0;score=0;firstTry=true;prepareOrders();showScreen(gameScreen);renderQuestion(false);tone('start')}
 function finish(){showScreen(finishScreen);finishScore.textContent=score+' / '+QUESTIONS.length;makeConfetti();tone('finish')}
 function reset(){confettiLayer.innerHTML='';current=0;score=0;firstTry=true;locked=false;showScreen(startScreen)}
 startBtn.addEventListener('click',startGame);againBtn.addEventListener('click',reset);soundBtn.addEventListener('click',()=>{soundOn=!soundOn;soundBtn.classList.toggle('muted',!soundOn);if(soundOn)tone('start')});
@@ -169,9 +182,10 @@ function addAtmosphere(){for(const scr of [startScreen,gameScreen,finishScreen])
 // QA hooks for deterministic screenshots. They do not affect normal gameplay.
 const qa=new URLSearchParams(location.search).get('qa');
 if(qa){
+  prepareOrders();
   if(qa==='start'){showScreen(startScreen)}
   else if(qa==='finish'){score=10;showScreen(finishScreen);finishScore.textContent='10 / 12';makeConfetti()}
-  else {showScreen(gameScreen);let n=1;if(/^q\d+$/.test(qa))n=Math.min(12,Math.max(1,parseInt(qa.slice(1))));if(qa==='long')n=6;if(qa==='last')n=12;current=n-1;renderQuestion(false);if(qa==='correct'){current=0;renderQuestion(false);setTimeout(()=>{const b=answersEl.children[QUESTIONS[0].answer];b.classList.add('correct');correctIcon.style.left='50%';correctIcon.style.top='45%';correctIcon.classList.add('show');happyBoy.classList.add('show');},80)}if(qa==='wrong'){current=4;renderQuestion(false);setTimeout(()=>{const b=answersEl.children[0];b.classList.add('wrong');wrongIcon.style.left='10%';wrongIcon.style.top='44%';wrongIcon.classList.add('show');wrongBoy.classList.add('show');tryAgain.classList.add('show')},80)}}
+  else {showScreen(gameScreen);let n=1;if(/^q\d+$/.test(qa))n=Math.min(12,Math.max(1,parseInt(qa.slice(1))));if(qa==='long')n=6;if(qa==='last')n=12;current=n-1;renderQuestion(false);if(qa==='correct'){current=0;renderQuestion(false);setTimeout(()=>{const b=[...answersEl.children].find(x=>Number(x.dataset.optionIndex)===QUESTIONS[0].answer);if(b)b.classList.add('correct');correctIcon.style.left='50%';correctIcon.style.top='45%';correctIcon.classList.add('show');happyBoy.classList.add('show');},80)}if(qa==='wrong'){current=4;renderQuestion(false);setTimeout(()=>{const b=answersEl.children[0];b.classList.add('wrong');wrongIcon.style.left='10%';wrongIcon.style.top='44%';wrongIcon.classList.add('show');wrongBoy.classList.add('show');tryAgain.classList.add('show')},80)}}
 }
 </script>
 </body></html>

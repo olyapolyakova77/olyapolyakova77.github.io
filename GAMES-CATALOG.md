@@ -49,3 +49,17 @@
 | Reading | NG | NG — Singing Lantern Festival | Lanterns | `reading/ng-lantern-festival/index.html` | https://olyapolyakova77.github.io/reading/ng-lantern-festival/ |
 | Grammar | Comparatives | Comparatives — Sky Race (Direct Choice) | Sky Race | `grammar/sky-race-direct-choice/index.html` | https://olyapolyakova77.github.io/grammar/sky-race-direct-choice/ |
 | Reading | EE vs EA | EE vs EA — Stained-Glass Spell Workshop | Stained Glass | `reading/ee-ea-stained-glass/index.html` | https://olyapolyakova77.github.io/reading/ee-ea-stained-glass/ |
+| Reading | EAR | Aurora Echo Terrace | — | `reading/ear-aurora-echo-terrace/index.html` | https://olyapolyakova77.github.io/reading/ear-aurora-echo-terrace/ |
+| Grammar | Plurals | Crystal Plural Forge (5) | — | `grammar/crystal-plural-forge-5/index.html` | https://olyapolyakova77.github.io/grammar/crystal-plural-forge-5/ |
+| Grammar | Plurals | Magic Plural Bakery | — | `grammar/magic-plural-bakery/index.html` | https://olyapolyakova77.github.io/grammar/magic-plural-bakery/ |
+| Reading | Long vs Short | Long vs Short A — Magic Windmill Sort | — | `reading/long-short-a-windmill/index.html` | https://olyapolyakova77.github.io/reading/long-short-a-windmill/ |
+| Reading | Consonant Sounds | Hard G vs Soft G — Moonlantern Greenhouse Sort | — | `reading/hard-soft-g-moonlantern-greenhouse/index.html` | https://olyapolyakova77.github.io/reading/hard-soft-g-moonlantern-greenhouse/ |
+| Reading | Consonant Sounds | Hard C vs Soft C — Mosaic Marble Run | — | `reading/hard-soft-c-mosaic-marble/index.html` | https://olyapolyakova77.github.io/reading/hard-soft-c-mosaic-marble/ |
+| Reading | Long vs Short | Long vs Short I — Night Train Signal Sort | — | `reading/long-short-i-night-train/index.html` | https://olyapolyakova77.github.io/reading/long-short-i-night-train/ |
+| Reading | QU | QU — Quill & Quartz Library | — | `reading/qu-quill-quartz-library/index.html` | https://olyapolyakova77.github.io/reading/qu-quill-quartz-library/ |
+| Reading | Consonant Sounds | SH — Shimmer Brush Mural | — | `reading/sh-shimmer-brush-mural/index.html` | https://olyapolyakova77.github.io/reading/sh-shimmer-brush-mural/ |
+| Reading | Long vs Short | Long vs Short O — Tidelight Harbour Sort | — | `reading/long-short-o-tidelight-harbour/index.html` | https://olyapolyakova77.github.io/reading/long-short-o-tidelight-harbour/ |
+| Reading | WH | WH — Whispering Wind Garden | — | `reading/wh-whispering-wind-garden/index.html` | https://olyapolyakova77.github.io/reading/wh-whispering-wind-garden/ |
+| Reading | Consonant Sounds | Hard C vs Soft C — Wishing Fountain Courtyard Sort | — | `reading/hard-soft-c-wishing-fountain/index.html` | https://olyapolyakova77.github.io/reading/hard-soft-c-wishing-fountain/ |
+| Grammar | Past Simple | Past Simple — The Verb Workshop | — | `grammar/past-simple-verb-workshop/index.html` | https://olyapolyakova77.github.io/grammar/past-simple-verb-workshop/ |
+| Grammar | Past Simple | Past Simple — Regular & Irregular Verbs Quiz | — | `grammar/past-simple-verbs-quiz/index.html` | https://olyapolyakova77.github.io/grammar/past-simple-verbs-quiz/ |
