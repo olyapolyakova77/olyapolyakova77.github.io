@@ -66,3 +66,9 @@
 | Reading | Short O | Short O — Glowing Rockpool Quest | — | `reading/short-o-glowing-rockpool/index.html` | https://olyapolyakova77.github.io/reading/short-o-glowing-rockpool/ |
 | Reading | Short A | Short A — Magic Apple Orchard | — | `reading/short-a-magic-apple-orchard/index.html` | https://olyapolyakova77.github.io/reading/short-a-magic-apple-orchard/ |
 | Reading | Short O | Short O — Magic Pottery Wheel | — | `reading/short-o-magic-pottery-wheel/index.html` | https://olyapolyakova77.github.io/reading/short-o-magic-pottery-wheel/ |
+| Reading | CH | CH /tʃ/ — Chime Bridge Quest | Chime Bridge | `reading/ch-chime-bridge/index.html` | https://olyapolyakova77.github.io/reading/ch-chime-bridge/ |
+| Grammar | Past Perfect | Past Perfect — The Clocktower Mystery | Clocktower | `grammar/past-perfect-clocktower-mystery/index.html` | https://olyapolyakova77.github.io/grammar/past-perfect-clocktower-mystery/ |
+| Reading | Long vs Short | Long vs Short E — Glassbloom Atelier | Glass Flowers | `reading/long-short-e-glassbloom-atelier/index.html` | https://olyapolyakova77.github.io/reading/long-short-e-glassbloom-atelier/ |
+| Grammar | Pronouns | Pronouns — Quiz | Fox | `grammar/pronouns-quiz/index.html` | https://olyapolyakova77.github.io/grammar/pronouns-quiz/ |
+| Grammar | Present Perfect Continuous | Present Perfect Continuous — The Alchemist’s Trail | Alchemy | `grammar/present-perfect-continuous-alchemists-trail/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-continuous-alchemists-trail/ |
+| Grammar | Present Perfect | Present Perfect — Time Rift Duel | Time Rift | `grammar/present-perfect-time-rift-duel/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-time-rift-duel/ |
