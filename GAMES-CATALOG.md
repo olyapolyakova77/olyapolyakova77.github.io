@@ -46,7 +46,6 @@
 | Reading | OU vs OW | OU vs OW — Mountain Water Spell | Mountain Water | `reading/ou-ow-mountain-water/index.html` | https://olyapolyakova77.github.io/reading/ou-ow-mountain-water/ |
 | Reading | AI | AI — Rainbow Raindrop Catch | Raindrops | `reading/ai-rainbow-raindrops/index.html` | https://olyapolyakova77.github.io/reading/ai-rainbow-raindrops/ |
 | Reading | NG | NG — Singing Lantern Festival | Lanterns | `reading/ng-lantern-festival/index.html` | https://olyapolyakova77.github.io/reading/ng-lantern-festival/ |
-| Grammar | Comparatives | Comparatives — Sky Race (Direct Choice) | Sky Race | `grammar/sky-race-direct-choice/index.html` | https://olyapolyakova77.github.io/grammar/sky-race-direct-choice/ |
 | Reading | EE vs EA | EE vs EA — Stained-Glass Spell Workshop | Stained Glass | `reading/ee-ea-stained-glass/index.html` | https://olyapolyakova77.github.io/reading/ee-ea-stained-glass/ |
 | Reading | EAR | Aurora Echo Terrace | — | `reading/ear-aurora-echo-terrace/index.html` | https://olyapolyakova77.github.io/reading/ear-aurora-echo-terrace/ |
 | Grammar | Plurals | Crystal Plural Forge (5) | — | `grammar/crystal-plural-forge-5/index.html` | https://olyapolyakova77.github.io/grammar/crystal-plural-forge-5/ |
@@ -67,7 +66,6 @@
 | Reading | Short A | Short A — Magic Apple Orchard | — | `reading/short-a-magic-apple-orchard/index.html` | https://olyapolyakova77.github.io/reading/short-a-magic-apple-orchard/ |
 | Reading | Short O | Short O — Magic Pottery Wheel | — | `reading/short-o-magic-pottery-wheel/index.html` | https://olyapolyakova77.github.io/reading/short-o-magic-pottery-wheel/ |
 | Reading | CH | CH /tʃ/ — Chime Bridge Quest | Chime Bridge | `reading/ch-chime-bridge/index.html` | https://olyapolyakova77.github.io/reading/ch-chime-bridge/ |
-| Grammar | Past Perfect | Past Perfect — The Clocktower Mystery | Clocktower | `grammar/past-perfect-clocktower-mystery/index.html` | https://olyapolyakova77.github.io/grammar/past-perfect-clocktower-mystery/ |
 | Reading | Long vs Short | Long vs Short E — Glassbloom Atelier | Glass Flowers | `reading/long-short-e-glassbloom-atelier/index.html` | https://olyapolyakova77.github.io/reading/long-short-e-glassbloom-atelier/ |
 | Grammar | Pronouns | Pronouns — Quiz | Fox | `grammar/pronouns-quiz/index.html` | https://olyapolyakova77.github.io/grammar/pronouns-quiz/ |
 | Grammar | Present Perfect Continuous | Present Perfect Continuous — The Alchemist’s Trail | Alchemy | `grammar/present-perfect-continuous-alchemists-trail/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-continuous-alchemists-trail/ |
