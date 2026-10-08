@@ -71,3 +71,17 @@
 | Grammar | Present Perfect Continuous | Present Perfect Continuous — The Alchemist’s Trail | Alchemy | `grammar/present-perfect-continuous-alchemists-trail/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-continuous-alchemists-trail/ |
 | Grammar | Present Perfect | Present Perfect — Time Rift Duel | Time Rift | `grammar/present-perfect-time-rift-duel/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-time-rift-duel/ |
 | Grammar | Possessive Adjectives | Possessive Adjectives — Spellbound Duel | Magic Duel | `grammar/possessive-adjectives-spellbound-duel/index.html` | https://olyapolyakova77.github.io/grammar/possessive-adjectives-spellbound-duel/ |
+| Reading | KN | KN /n/ — Catch the Bubbles | Bubbles | `reading/kn-bubbles/index.html` | https://olyapolyakova77.github.io/reading/kn-bubbles/ |
+| Reading | Short O | Short O /ɒ/ — Catch the Bubbles | Bubbles | `reading/short-o-bubbles/index.html` | https://olyapolyakova77.github.io/reading/short-o-bubbles/ |
+| Grammar | Past Perfect | Past Perfect — The Clocktower Mystery | Clocktower | `grammar/past-perfect-clocktower-mystery/index.html` | https://olyapolyakova77.github.io/grammar/past-perfect-clocktower-mystery/ |
+| Grammar | Comparatives | Comparatives — Comparative City Quiz | City Beacon | `grammar/comparative-city-quiz/index.html` | https://olyapolyakova77.github.io/grammar/comparative-city-quiz/ |
+| Reading | Long vs Short | Closed E vs Open E — Glassbloom Atelier | Glass Flowers | `reading/closed-open-e-glassbloom/index.html` | https://olyapolyakova77.github.io/reading/closed-open-e-glassbloom/ |
+| Grammar | Present Simple | Present Simple — Magic Endings | Magic Cauldron | `grammar/present-simple-magic-endings/index.html` | https://olyapolyakova77.github.io/grammar/present-simple-magic-endings/ |
+| Grammar | Past Simple | Past Simple — Magic Verb Garden (V1 / V2) | Verb Garden | `grammar/past-simple-magic-verb-garden/index.html` | https://olyapolyakova77.github.io/grammar/past-simple-magic-verb-garden/ |
+| Grammar | Comparatives & Superlatives | Comparatives & Superlatives — Magical Greenhouse | Greenhouse | `grammar/comparatives-superlatives-greenhouse/index.html` | https://olyapolyakova77.github.io/grammar/comparatives-superlatives-greenhouse/ |
+| Reading | E / EE | Closed E / Open E / EE — Origami Sky Parade | Origami | `reading/e-origami-sky-parade/index.html` | https://olyapolyakova77.github.io/reading/e-origami-sky-parade/ |
+| Grammar | Possessives | Possessives — Relic Clash | Relic Duel | `grammar/possessives-relic-clash/index.html` | https://olyapolyakova77.github.io/grammar/possessives-relic-clash/ |
+| Reading | AIR | AIR /eə/ — Sky Carpet Weaver | Sky Carpet | `reading/air-sky-carpet-weaver/index.html` | https://olyapolyakova77.github.io/reading/air-sky-carpet-weaver/ |
+| Grammar | Comparatives | Comparatives — Sky Race (Writing) | Airship | `grammar/sky-race-comparatives-writing/index.html` | https://olyapolyakova77.github.io/grammar/sky-race-comparatives-writing/ |
+| Grammar | Present Perfect / Present Perfect Continuous | Present Perfect vs Present Perfect Continuous — The Aether Nexus | Aether Nexus | `grammar/present-perfect-aether-nexus/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-aether-nexus/ |
+| Grammar | To Be | To Be — Wonder Trail | Adventure Trail | `grammar/to-be-wonder-trail/index.html` | https://olyapolyakova77.github.io/grammar/to-be-wonder-trail/ |
