@@ -85,3 +85,5 @@
 | Grammar | Comparatives | Comparatives — Sky Race (Writing) | Airship | `grammar/sky-race-comparatives-writing/index.html` | https://olyapolyakova77.github.io/grammar/sky-race-comparatives-writing/ |
 | Grammar | Present Perfect / Present Perfect Continuous | Present Perfect vs Present Perfect Continuous — The Aether Nexus | Aether Nexus | `grammar/present-perfect-aether-nexus/index.html` | https://olyapolyakova77.github.io/grammar/present-perfect-aether-nexus/ |
 | Grammar | To Be | To Be — Wonder Trail | Adventure Trail | `grammar/to-be-wonder-trail/index.html` | https://olyapolyakova77.github.io/grammar/to-be-wonder-trail/ |
+| Grammar | Can / Can’t | Can You...? — Witch Village Adventure | Witch Village | `grammar/can-you-witch-village/index.html` | https://olyapolyakova77.github.io/grammar/can-you-witch-village/ |
+| Grammar | Present Simple | Present Simple — Ghostly Castle | Ghosts | `grammar/present-simple-ghostly-castle/index.html` | https://olyapolyakova77.github.io/grammar/present-simple-ghostly-castle/ |
