@@ -87,3 +87,4 @@
 | Grammar | To Be | To Be — Wonder Trail | Adventure Trail | `grammar/to-be-wonder-trail/index.html` | https://olyapolyakova77.github.io/grammar/to-be-wonder-trail/ |
 | Grammar | Can / Can’t | Can You...? — Witch Village Adventure | Witch Village | `grammar/can-you-witch-village/index.html` | https://olyapolyakova77.github.io/grammar/can-you-witch-village/ |
 | Grammar | Present Simple | Present Simple — Ghostly Castle | Ghosts | `grammar/present-simple-ghostly-castle/index.html` | https://olyapolyakova77.github.io/grammar/present-simple-ghostly-castle/ |
+| Grammar | Have Got / Has Got | Have Got / Has Got — Halloween Swamp Treasure Adventure | Board Game | `grammar/have-got-has-got-swamp-board/index.html` | https://olyapolyakova77.github.io/grammar/have-got-has-got-swamp-board/ |
