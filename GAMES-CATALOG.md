@@ -90,3 +90,4 @@
 | Grammar | Have Got / Has Got | Have Got / Has Got — Halloween Swamp Treasure Adventure | Board Game | `grammar/have-got-has-got-swamp-board/index.html` | https://olyapolyakova77.github.io/grammar/have-got-has-got-swamp-board/ |
 | Grammar | Mixed Grammar | Halloween Grammar Quest — Complete Adventure | Halloween Quest | `grammar/halloween-grammar-quest/index.html` | https://olyapolyakova77.github.io/grammar/halloween-grammar-quest/ |
 | Grammar | Mixed Grammar | The Great Halloween Spell Disaster — Full Quest | Halloween Quest | `grammar/great-halloween-spell-disaster/index.html` | https://olyapolyakova77.github.io/grammar/great-halloween-spell-disaster/ |
+| Grammar | Mixed Grammar — A1 | The Great Halloween Spell Disaster — Junior A1 | Halloween Quest | `grammar/halloween-junior-a1/index.html` | https://olyapolyakova77.github.io/grammar/halloween-junior-a1/ |
