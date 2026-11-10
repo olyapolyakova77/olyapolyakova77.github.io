@@ -91,3 +91,9 @@
 | Grammar | Mixed Grammar | Halloween Grammar Quest — Complete Adventure | Halloween Quest | `grammar/halloween-grammar-quest/index.html` | https://olyapolyakova77.github.io/grammar/halloween-grammar-quest/ |
 | Grammar | Mixed Grammar | The Great Halloween Spell Disaster — Full Quest | Halloween Quest | `grammar/great-halloween-spell-disaster/index.html` | https://olyapolyakova77.github.io/grammar/great-halloween-spell-disaster/ |
 | Grammar | Mixed Grammar — A1 | The Great Halloween Spell Disaster — Junior A1 | Halloween Quest | `grammar/halloween-junior-a1/index.html` | https://olyapolyakova77.github.io/grammar/halloween-junior-a1/ |
+
+| Grammar | Can / Must / Should | Can / Must / Should — Underwater Board Adventure | Adventure | `grammar/can-must-should-underwater/index.html` | https://olyapolyakova77.github.io/grammar/can-must-should-underwater/ |
+| Grammar | Past Continuous | Past Continuous — Sea Battle | Sea Battle | `grammar/sea-battle-past-continuous/index.html` | https://olyapolyakova77.github.io/grammar/sea-battle-past-continuous/ |
+| Grammar | Present Continuous | Present Continuous — Sea Battle | Sea Battle | `grammar/sea-battle-present-continuous/index.html` | https://olyapolyakova77.github.io/grammar/sea-battle-present-continuous/ |
+| Grammar | Mixed Grammar | Secrets of the Sunken City | Adventure | `grammar/secrets-sunken-city/index.html` | https://olyapolyakova77.github.io/grammar/secrets-sunken-city/ |
+| Grammar | Mixed Grammar | The Wizard’s Lost Treasures | Adventure | `grammar/wizards-lost-treasures/index.html` | https://olyapolyakova77.github.io/grammar/wizards-lost-treasures/ |
