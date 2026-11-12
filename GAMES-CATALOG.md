@@ -97,3 +97,4 @@
 | Grammar | Present Continuous | Present Continuous — Sea Battle | Sea Battle | `grammar/sea-battle-present-continuous/index.html` | https://olyapolyakova77.github.io/grammar/sea-battle-present-continuous/ |
 | Grammar | Mixed Grammar | Secrets of the Sunken City | Adventure | `grammar/secrets-sunken-city/index.html` | https://olyapolyakova77.github.io/grammar/secrets-sunken-city/ |
 | Grammar | Mixed Grammar | The Wizard’s Lost Treasures | Adventure | `grammar/wizards-lost-treasures/index.html` | https://olyapolyakova77.github.io/grammar/wizards-lost-treasures/ |
+| Reading | Phonics — Short and Long Vowels | Pop It Treasure Hunt | Pop It / Treasure | `reading/pop-it-treasure-hunt/index.html` | https://olyapolyakova77.github.io/reading/pop-it-treasure-hunt/ |
