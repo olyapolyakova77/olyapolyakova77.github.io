@@ -98,3 +98,5 @@
 | Grammar | Mixed Grammar | Secrets of the Sunken City | Adventure | `grammar/secrets-sunken-city/index.html` | https://olyapolyakova77.github.io/grammar/secrets-sunken-city/ |
 | Grammar | Mixed Grammar | The Wizard’s Lost Treasures | Adventure | `grammar/wizards-lost-treasures/index.html` | https://olyapolyakova77.github.io/grammar/wizards-lost-treasures/ |
 | Reading | Phonics — Short and Long Vowels | Pop It Treasure Hunt | Pop It / Treasure | `reading/pop-it-treasure-hunt/index.html` | https://olyapolyakova77.github.io/reading/pop-it-treasure-hunt/ |
+
+| Reading | Phonics — Short and Long Vowels | Frozen Gems Pop It — Winter Reading Adventure | Frozen Gems / Penguin | `reading/frozen-gems-pop-it/index.html` | https://olyapolyakova77.github.io/reading/frozen-gems-pop-it/ |
